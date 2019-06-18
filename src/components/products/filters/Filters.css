@@ -1,0 +1,39 @@
+.filters__container {
+  padding: 0 20px;
+}
+
+.filters__container h3 {
+  color: grey;
+}
+
+.filters {
+  text-align: center;
+  padding: 0;
+}
+
+.filters__item {
+  list-style-type: none;
+  padding: 5px 0;
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .filters__item {
+    display: block;
+  }
+}
+
+.filters__btn {
+  border: none;
+  background-color: transparent;
+}
+
+.filters__btn:focus {
+  outline: none;
+}
+
+.filters__item--selected .filters__btn {
+  background-color: #d39e96;
+  color: white;
+  font-weight: bold;
+}

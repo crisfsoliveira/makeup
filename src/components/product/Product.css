@@ -1,0 +1,28 @@
+.product__container {
+  position: relative;
+  margin-top: 40px;
+}
+
+.product__container a {
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  color: #c38d84;
+}
+
+.product__info {
+  width: 80%;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .product__info {
+    width: 50%;
+  }
+}
+
+.product__info p:nth-child(3) {
+  text-align: justify;
+  line-height: 1.5;
+  color: grey;
+}

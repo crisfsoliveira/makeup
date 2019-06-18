@@ -1,0 +1,28 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  position: relative;
+  padding: 0;
+}
+
+.product__row {
+  flex: 1 0 100%;
+}
+
+@media (min-width: 768px) {
+  .product__row {
+    flex: 1 0 22%;
+    padding: 10px;
+  }
+}
+
+.product__img {
+  width: 100%;
+  max-width: 200px;
+  cursor: pointer;
+}
+
+.product__img:hover {
+  opacity: 0.7;
+}
